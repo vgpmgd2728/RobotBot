@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Киберспортивный клан "RobotBot" | Регистрация</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <form class="register container">
+        <div class="reg-head">
+            <a class="button-back" href="">&lt;</a>
+            <h1 class="head-text">Заявки на вступление</h1>
+        </div>
+        <fieldset>
+            <legend class="name-info">Ваш никнейм в реальной жизни :)</legend>
+            <h2 class="name">Имя</h2>
+            <input name="nickname" placeholder="Имя" type="text" class="name">
+            <input name="last-name" placeholder="Фамилия" type="text" class="name">
+        </fieldset>
+        
+        <div class="pol">
+            <p class="choose">Выберите пол</p>
+            <input name="gender" type="radio">
+            <label class="gender-choose"  for="">М</label>
+            <input name="gender" type="radio">
+            <label class="gender-choose" for="">Ж</label>
+        </div>
+        <div class="age">
+            <input name="ur-age" type="checkbox">
+            <label for="">Вам есть 18?</label>
+        </div>
+        <div class="your-game">
+            <label for="">Ваша дисциплина:</label>
+            <select class="direct" name="direction" id="">
+                <option value="cs:go">кс го</option>
+                <option value="dota2">дота 2</option>
+                <option value="apex-legends">апекс легендс</option>
+            </select>
+        </div>
+        <div></div>
+        <textarea name="more-info" placeholder="Дополнительная информация" type="text" class="info-plus"></textarea>
+        <div class="send-div">
+            <button type="submit" class="send">Отправить заявку</button>
+        </div>
+    </form>
+</body>
+</html>

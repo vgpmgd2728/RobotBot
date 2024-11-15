@@ -1,0 +1,85 @@
+@media screen and (max-width: 1200px) {
+    
+    .container{
+        max-width: 100%;
+        
+    }
+    .scope{
+        display: block;
+        width: 100%;
+        
+    }
+
+    .scope-img{
+     width: 200px;
+     height: 400px;   
+    }
+}
+
+
+@media screen and (max-width: 1040px){
+    .game-img{
+        margin-bottom: 50px;
+    }
+    .apexleg{
+        display: inline;
+        margin-top: 50px;
+    }
+    .head-text{
+
+        
+    } 
+     .register{
+        width: 500px;
+     }
+
+}
+
+@media screen and (max-width: 800px) {
+    .header-title{
+        font-size: 40px;
+    }
+    .header-title{
+        font-size: 40px;
+    }
+    .container{
+        
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    .gotoform{
+        width: 100%;
+    }
+    .go-button{
+        width: 150px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .click-here{
+        width: 80%;
+    }
+    .go-button{
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .go-button{
+        width: 40%;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and(max-width: 600px) {
+    .nav-link{
+        font-size:12px;
+    }
+}

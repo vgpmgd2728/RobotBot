@@ -1,0 +1,254 @@
+/* черный -  #222222   голубой - #65daff    зеленый - #65e1b4   текст в начале - #4e4e4e*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #222222  ;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.nav-links{
+    float: right;
+    
+}
+
+
+
+
+
+.robotbot-link{
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav-link:hover{
+    color: #65e1b4;
+    transition: 0.5s;
+}
+
+.header{
+    background-image: url("img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 50px;
+}
+
+.header-title{
+    color: #4e4e4e;
+    font-size: 50px;
+    
+   
+}
+
+.header-text{
+    color: #4e4e4e;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+.register-button{
+    text-decoration: none;
+    font-size: 10px;
+    background: linear-gradient(45deg, #65daff, #65e1b4);
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    margin-top: 50px;
+}
+
+
+.scope-img{
+    width: 100px;
+    height: 200px;
+    
+}
+
+.scope-text{
+    color: #65daff;
+}
+
+
+.scope{
+    width: 20%;
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: top;
+    text-align: center;
+
+}
+
+.section-2{
+    padding-bottom: 50px;
+}
+
+.gotoform{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px black ;
+    height: 300px;
+}
+
+.gotoform-line{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.go{
+    font-size: 30px;
+    color: #65daff ;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.click-here{
+    background-color: #65daff;
+    height: 120px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.click-here-text{
+    color: white;
+    display: block;
+    background-color: #65daff;
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+
+.go-button{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: 20px;
+    display: block;
+    max-width: 200px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 190px;
+    padding: 10px;
+}
+
+.game-tittle{
+    text-align: center;
+    color: #65e1b4;
+}
+
+
+
+
+
+.game-line{
+    background-color: #65e1b4;
+    max-width: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.game-text{
+    max-width: 40%;
+    color: white;
+}
+
+.games{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.game-tittle{
+    text-align: center;
+    color: #65e1b4;
+}
+
+.game-img{
+    max-width: 48%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.game{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.games-text{
+    color: #ffffff;
+}
+
+.game-name{
+    color: #65e1b4;
+
+}
+
+
+.game-tittle{
+    color: #65daff;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.game-line{
+    border-color: #65e1b4;
+}
+
+
+.our-games{
+    box-shadow: 0px 0px 5px black;
+    margin: 100px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.text2{
+    color: white;
+    text-align: center;
+}
+
